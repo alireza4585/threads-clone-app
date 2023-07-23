@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:threads/Screens/home.dart';
+import 'package:threads/Screens/profile.dart';
+import 'package:threads/Screens/search.dart';
 
 class Navi extends StatefulWidget {
   Navi({super.key});
@@ -13,10 +15,10 @@ class _NaviState extends State<Navi> {
   int index = 0;
   List page = [
     HomePage(),
+    SearchScreen(),
     HomePage(),
     HomePage(),
-    HomePage(),
-    HomePage(),
+    ProfileScreen(),
   ];
   Widget build(BuildContext context) {
     return Scaffold(
