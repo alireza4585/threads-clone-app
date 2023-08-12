@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:threads/Screens/home.dart';
+import 'package:threads/Screens/post.dart';
 import 'package:threads/Screens/profile.dart';
 import 'package:threads/Screens/search.dart';
 
@@ -16,7 +17,7 @@ class _NaviState extends State<Navi> {
   List page = [
     HomePage(),
     SearchScreen(),
-    HomePage(),
+    PostScreen(),
     HomePage(),
     ProfileScreen(),
   ];
